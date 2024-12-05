@@ -4,7 +4,7 @@ import React from 'react'
 
 const HomePage = () => {
   return (
-    <div >
+    <div className='h-[1000]' >
       <Home/>
     </div>
   )

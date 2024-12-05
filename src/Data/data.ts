@@ -1,9 +1,9 @@
 export const BaseInfo = {
-    name: "Sajal",
+    name: "Zeeshan Ramzan",
     position: "Full Stack Web Developer",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro numquam ad, vero consequuntur aperiam cumque voluptatum pariatur veniam? Qui facilis est ipsam odio cum!",
-    profilePic: "/images/hero.png",
+      "I love creating modern and user-friendly solutions using the latest technologies. My focus is on solving problems and building applications that make a real difference while keeping things simple and effective.",
+    profilePic: "/images/hero-3.png",
   };
   
   export const aboutInfo = {
