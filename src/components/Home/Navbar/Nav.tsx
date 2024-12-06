@@ -24,7 +24,7 @@ const Nav = ({openNav}:Props) => {
       }
     },[])
   return (
-    <div className={`fixed ${navBg ? "bg-[#240b39]" : "fixed"} h-[12vh] z-[10]  w-full transition-all duration-200`}>
+    <div className={`fixed ${navBg ? "bg-[#131622]" : "fixed"} h-[12vh] z-[10]  w-full transition-all duration-200`}>
        <div className='flex item-center h-full justify-between w-[95%] sm:w-[90%] xl:w-[80%] mx-auto'>
             <h1 className='text-3xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-center text-white mt-5' >
               Portfolio.</h1>

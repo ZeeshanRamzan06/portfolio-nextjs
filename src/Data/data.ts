@@ -9,11 +9,11 @@ export const BaseInfo = {
   export const aboutInfo = {
     title: "Crafting Web Application with Passion and Precision",
     description:
-      "At webdev warriors, we’re a dedicated team of designers and developers committed to delivering tailored web solutions. With a blend of creativity and technical expertise, we help businesses elevate their online presence and achieve their goals",
-    client: "50+",
-    experience: "3+",
-    project: "200+",
-    website: "100+",
+      "I'm Zeeshan Ramzan, a recent Software Engineering graduate based in Lahore, Pakistan. I thrive on tackling challenges across various domains. Portfolio highlights innovation, while continuous learning fuels impactful tech contributions. Reach out anytime for assistance or inquiries! 😊",
+    client: "15+",
+    experience: "1+",
+    project: "20+",
+    website: "30+",
   };
   
   export const servicesData = [
@@ -240,8 +240,8 @@ export const BaseInfo = {
   ];
   
   export const contactData = {
-    phone: "+88(012345 789)",
-    email: "example@gmail.com",
-    address: "Dhaka , Bangladesh",
+    phone: "+923200606628",
+    email: "zeeshanramzan3f@gmail.com",
+    address: "Lahore , Pakistan",
   };
   
