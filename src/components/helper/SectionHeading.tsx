@@ -7,8 +7,8 @@ type Props = {
 
 const SectionHeading = ({children} : Props) => {
   return (
-    <h1 className='dark:bg-blue-800 bg-gray-400 w-fit text-center px-4 py-3 mx-auto dark:text-white text-gray-700 text-2xl sm:text-3xl 
-    md:text-4xl uppercase '>
+    <h1 className='  w-fit text-center px-4 py-3 mx-auto dark:text-white text-gray-700 text-3xl sm:text-4xl 
+    md:text-5xl uppercase '>
       {children}
     </h1>
   )

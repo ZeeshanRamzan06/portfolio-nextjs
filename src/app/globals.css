@@ -17,4 +17,6 @@
         -webkit-text-fill-color: transparent;
     }
   }
-  
+  html {
+    scroll-behavior: smooth;
+  }

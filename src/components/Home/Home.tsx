@@ -28,15 +28,27 @@ useEffect(()=>{
 
 
   return (
-    <div className='overflow-hidden'>
-      <Responsive/>
-      <Hero/>
-      <About/>
-      <Project/>
-      <Skills/>
-      <Customer/>
-      <Contact/>
-      <Footer/>
+    <div className="overflow-hidden">
+      <Responsive />
+      <section id="hero">
+        <Hero />
+      </section>
+      <section id="about">
+        <About />
+      </section>
+      <section id="projects">
+        <Project />
+      </section>
+      <section id="skills">
+        <Skills />
+      </section>
+      <section id="customer">
+        <Customer />
+      </section>
+      <section id="contact">
+        <Contact />
+      </section>
+      <Footer />
     </div>
   )
 }
