@@ -22,45 +22,45 @@ export const BaseInfo = {
   export const projectData = [
     {
       id: 1,
-      title: "website",
+      title: "E-commerce Website",
       image: "/images/p1.png",
       url: "https://github.com/ZeeshanRamzan06",
-      skills: ["Python", "Django", "PostgreSQL"],
+      skills: ["React", "NodeJs", "MongoDb"],
     },
     {
       id: 2,
-      title: "website",
+      title: "Fruite Website",
       image: "/images/p2.png",
-      url: "https://github.com/ZeeshanRamzan06",
-      skills: ["Python", "Django", "PostgreSQL"]
+      url: "https://fructify-e09b9.web.app/",
+      skills: ["Html", "JavaScript", "CSS"]
     },
     {
       id: 3,
-      title: "website",
+      title: "Weather App",
       image: "/images/p3.png",
       url: "https://github.com/ZeeshanRamzan06",
-      skills: ["Python", "Django", "PostgreSQL"]
+      skills: ["Html", "JavaScript", "CSS"]
     },
     {
       id: 4,
-      title: "website",
+      title: "Real Estate Contract",
       image: "/images/p4.png",
       url: "https://github.com/ZeeshanRamzan06",
-      skills: ["Python", "Django", "PostgreSQL"]
+      skills: ["Solidity", "Blockchain", "Ether.js"]
     },
     {
       id: 5,
-      title: "website",
+      title: "My Portfolio",
       image: "/images/p5.png",
       url: "https://github.com/ZeeshanRamzan06",
-      skills: ["Python", "Django", "PostgreSQL"]
+      skills: ["NetxJs", "ReactJs", "Tailwind"]
     },
     {
       id: 6,
-      title: "website",
+      title: "Mystry Message",
       image: "/images/p6.png",
       url: "https://github.com/ZeeshanRamzan06",
-      skills: ["Python", "Django", "PostgreSQL"]
+      skills: ["Next Js", "Tailwind", "ReactJs"]
     }
   ];
   
