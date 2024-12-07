@@ -4,16 +4,17 @@ export const BaseInfo = {
     description:
       "I love creating modern and user-friendly solutions using the latest technologies. My focus is on solving problems and building applications that make a real difference while keeping things simple and effective.",
     profilePic: "/images/hero-3.png",
+    myCv:"/images/Zeeshan.pdf",
   };
   
   export const aboutInfo = {
     title: "Crafting Web Application with Passion and Precision",
     description:
       "I'm Zeeshan Ramzan, a recent Software Engineering graduate based in Lahore, Pakistan. I thrive on tackling challenges across various domains. Portfolio highlights innovation, while continuous learning fuels impactful tech contributions. Reach out anytime for assistance or inquiries! 😊",
-    client: "15+",
+    Linesofcode: "40k+",
     experience: "1+",
     project: "20+",
-    website: "30+",
+    certificate: "10+",
   };
   
   export const servicesData = [

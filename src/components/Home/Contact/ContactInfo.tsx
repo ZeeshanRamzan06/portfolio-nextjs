@@ -12,8 +12,8 @@ const ContactInfo = () => {
                 <FaPhone className='w-4 h-4 md:w-7 md:h-7 text-white'/>
             </div>
             <div>
-                <h1 className='text-lg md:text-xl text-white font-bold'>Phone</h1>
-                <h1 className='text-base md:text-lg text-white text-opacity-70'>{contactData.phone}</h1>
+                <h1 className='text-lg md:text-xl dark:text-white text-gray-700 font-bold'>Phone</h1>
+                <h1 className='text-base md:text-lg dark:text-white text-gray-700 text-opacity-70'>{contactData.phone}</h1>
             </div>
         </div>
         <div className="flex items-center space-x-8 mt-8 mb-8">
@@ -22,8 +22,8 @@ const ContactInfo = () => {
                 <FaEnvelope className='w-4 h-4 md:w-7 md:h-7 text-white'/>
             </div>
             <div>
-                <h1 className='text-lg md:text-xl text-white font-bold'>Email</h1>
-                <h1 className='text-base md:text-lg text-white text-opacity-70'>{contactData.email}</h1>
+                <h1 className='text-lg md:text-xl dark:text-white text-gray-700 font-bold'>Email</h1>
+                <h1 className='text-base md:text-lg dark:text-white text-gray-700 text-opacity-70'>{contactData.email}</h1>
             </div>
         </div>
         <div className="flex items-center space-x-8">
@@ -32,8 +32,8 @@ const ContactInfo = () => {
                 <FaMapLocation className='w-4 h-4 md:w-7 md:h-7 text-white'/>
             </div>
             <div>
-                <h1 className='text-lg md:text-xl text-white font-bold'>Address</h1>
-                <h1 className='text-base md:text-lg text-white text-opacity-70'>{contactData.address}</h1>
+                <h1 className='text-lg md:text-xl dark:text-white text-gray-700 font-bold'>Address</h1>
+                <h1 className='text-base md:text-lg dark:text-white text-gray-700 text-opacity-70'>{contactData.address}</h1>
             </div>
         </div>
     </div>

@@ -9,6 +9,7 @@ import Contact from './Contact/Contact'
 import Footer from './Footer/Footer'
 import AOS from 'aos'
 import "aos/dist/aos.css"
+import Responsive from './Navbar/Responsive'
 const Home = () => {
 
 useEffect(()=>{
@@ -28,6 +29,7 @@ useEffect(()=>{
 
   return (
     <div className='overflow-hidden'>
+      <Responsive/>
       <Hero/>
       <About/>
       <Project/>
