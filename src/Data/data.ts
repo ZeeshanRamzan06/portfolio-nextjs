@@ -23,7 +23,7 @@ export const BaseInfo = {
     {
       id: 1,
       title: "E-commerce Website",
-      image: "/images/p1.png",
+      image: "/images/p2.png",
       url: "https://github.com/ZeeshanRamzan06",
       skills: ["React", "NodeJs", "MongoDb"],
     },
@@ -37,28 +37,28 @@ export const BaseInfo = {
     {
       id: 3,
       title: "Weather App",
-      image: "/images/p3.png",
+      image: "/images/p2.png",
       url: "https://github.com/ZeeshanRamzan06",
       skills: ["Html", "JavaScript", "CSS"]
     },
     {
       id: 4,
       title: "Real Estate Contract",
-      image: "/images/p4.png",
+      image: "/images/p2.png",
       url: "https://github.com/ZeeshanRamzan06",
       skills: ["Solidity", "Blockchain", "Ether.js"]
     },
     {
       id: 5,
       title: "My Portfolio",
-      image: "/images/p5.png",
+      image: "/images/p-3.png",
       url: "https://github.com/ZeeshanRamzan06",
       skills: ["NetxJs", "ReactJs", "Tailwind"]
     },
     {
       id: 6,
       title: "Mystry Message",
-      image: "/images/p6.png",
+      image: "/images/p2.png",
       url: "https://github.com/ZeeshanRamzan06",
       skills: ["Next Js", "Tailwind", "ReactJs"]
     }
