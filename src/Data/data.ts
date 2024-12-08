@@ -23,44 +23,44 @@ export const BaseInfo = {
     {
       id: 1,
       title: "E-commerce Website",
-      image: "/images/p2.png",
+      image: "/images/p-1.jpeg",
       url: "https://github.com/ZeeshanRamzan06",
       skills: ["React", "NodeJs", "MongoDb"],
     },
     {
       id: 2,
-      title: "Fruite Website",
-      image: "/images/p2.png",
-      url: "https://fructify-e09b9.web.app/",
-      skills: ["Html", "JavaScript", "CSS"]
+      title: "Food Website",
+      image: "/images/p-2.png",
+      url: " https://food-fries-web.vercel.app/",
+      skills: ["React","JavaScript", "CSS"]
     },
     {
       id: 3,
-      title: "Weather App",
-      image: "/images/p2.png",
-      url: "https://github.com/ZeeshanRamzan06",
-      skills: ["Html", "JavaScript", "CSS"]
+      title: "My Portfolio",
+      image: "/images/p-3.png",
+      url: "/",
+      skills: ["Next Js", "JavaScript", "Tailwind"]
     },
     {
       id: 4,
       title: "Real Estate Contract",
-      image: "/images/p2.png",
-      url: "https://github.com/ZeeshanRamzan06",
+      image: "/images/p-5.png",
+      url: "https://github.com/ZeeshanRamzan06/RealEstate_contract",
       skills: ["Solidity", "Blockchain", "Ether.js"]
     },
     {
       id: 5,
-      title: "My Portfolio",
-      image: "/images/p-3.png",
-      url: "https://github.com/ZeeshanRamzan06",
-      skills: ["NetxJs", "ReactJs", "Tailwind"]
+      title: "Vegitable and Fruite Web",
+      image: "/images/p2.png",
+      url: "https://fructify-e09b9.web.app/",
+      skills: ["Html", "CSS", "JavaScript"]
     },
     {
       id: 6,
-      title: "Mystry Message",
-      image: "/images/p2.png",
-      url: "https://github.com/ZeeshanRamzan06",
-      skills: ["Next Js", "Tailwind", "ReactJs"]
+      title: "Weather App",
+      image: "/images/p-4.png",
+      url: "https://weather-app-self-nine-75.vercel.app/",
+      skills: ["Html", "CSS", "JavaScript"]
     }
   ];
   
