@@ -23,37 +23,49 @@ const ContactForm = () => {
     setFormData({ ...formData, [name]: value });
   };
 
+
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    setStatus(''); // Reset status before submission
+  e.preventDefault();
+  setStatus(''); // Reset status before submission
 
-    try {
-      const response = await fetch('/api/send-email', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
+  // Validate form data
+  if (!formData.firstName || !formData.lastName || !formData.email || !formData.subject || !formData.message) {
+    setStatus('All fields are required.');
+    return;
+  }
+
+  try {
+    console.log('Submitting form data:', formData); // Debugging
+    const response = await fetch('/api/send-email', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(formData),
+    });
+
+    if (response.ok) {
+      const result = await response.json();
+      console.log('API response:', result);
+      setStatus('Message sent successfully!');
+      setFormData({
+        firstName: '',
+        lastName: '',
+        email: '',
+        phone: '',
+        subject: '',
+        message: '',
       });
-
-      if (response.ok) {
-        setStatus('Message sent successfully!');
-        setFormData({
-          firstName: '',
-          lastName: '',
-          email: '',
-          phone: '',
-          subject: '',
-          message: '',
-        });
-      } else {
-        setStatus('Failed to send your message. Please try again.');
-      }
-    } catch (error) {
-      console.error('Error:', error);
-      setStatus('An error occurred. Please try again later.');
+    } else {
+      const errorData = await response.json();
+      console.error('Error Response:', errorData);
+      setStatus(errorData.error || 'Failed to send your message. Please try again.');
     }
-  };
+  } catch (error) {
+    console.error('Error:', error);
+    setStatus('An error occurred. Please try again later.');
+  }
+};
 
   return (
     <div className="dark:bg-[#262d42] bg-gray-400 rounded-lg p-4 sm:p-10">
@@ -119,14 +131,14 @@ const ContactForm = () => {
           rows={5}
           className="flex-1 mt-5 dark:bg-[#454E56] bg-gray-300 dark:placeholder:text-white placeholder:text-gray-700 px-6 py-3 rounded-md border-[1.5px] border-gray-200 border-opacity-15 outline-none w-full"
         ></textarea>
-        {status && <p className="mt-4 text-center text-lg text-red-600 dark:text-green-500">{status}</p>}
+        {status && <p className="mt-4 text-center text-lg text-green-600">{status}</p>}
         <div className="mt-5">
             
           <button
             type="submit"
             className="px-6 py-3.5 dark:bg-[#191D2B] bg-blue-700 border-[#4A62D6] text-white hover:bg-[#4A62D6] transition-all duration-150 rounded-full"
           >
-            Submit Message
+             Submit Message
           </button>
         </div>
       </form>

@@ -1,3 +1,4 @@
+'use client'
 import { contactData } from '@/Data/data';
 import React from 'react';
 import { FaEnvelope, FaPhone } from 'react-icons/fa';

@@ -1,3 +1,4 @@
+'use client'
 import SectionHeading from '@/components/helper/SectionHeading'
 import { aboutInfo } from '@/Data/data'
 import React from 'react'
@@ -93,7 +94,7 @@ const About = () => {
 
             
         </div>
-
+  {/* Education and Experinece part  */}
         <div className="relative mt-[10rem] px-6">
       {/* Timeline container */}
       <div className="grid grid-cols-1 md:grid-cols-[1fr_4fr] gap-6">
@@ -122,7 +123,7 @@ const About = () => {
                 data-aos="fade-up"
               >
                 <h3 className="font-bold text-xl text-blue-700 dark:text-white">
-                  Full Stack Web Developer
+                  Full Stack Web Developer Intern
                 </h3>
                 <p className="text-gray-600 dark:text-gray-400">ITSOLERA</p>
                 <p className="text-gray-500 dark:text-gray-500">

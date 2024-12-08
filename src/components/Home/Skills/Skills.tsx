@@ -1,3 +1,4 @@
+'use client'
 import SectionHeading from '@/components/helper/SectionHeading'
 import { skillsData } from '@/Data/data'
 import React from 'react'

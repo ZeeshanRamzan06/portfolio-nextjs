@@ -1,3 +1,4 @@
+'use client'
 import SectionHeading from '@/components/helper/SectionHeading'
 import { projectData } from '@/Data/data'
 import Image from 'next/image'
