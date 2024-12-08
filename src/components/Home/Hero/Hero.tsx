@@ -32,14 +32,14 @@ const Hero = () => {
         <div className="flex justify-center flex-col w-4/5 h-full mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-12 ">
             <div className='order-2 lg:order-1'>
-                <h1 data-aos="fade-left" className=' text-blue-700 text-2xl md:text-3xl lg-text-4xl mb-3 dark:text-gray-300 font-semibold'>
+                <h1 data-aos="fade-left" className=' text-blue-700 text-2xl md:text-3xl lg-text-4xl mb-2 dark:text-gray-300 font-semibold'>
                     Hi,I'm {BaseInfo.name}
                 </h1>
                 <h1 data-aos="fade-right" data-aos-delay="100" className=' text-gray-700  text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold md:leading-[3rem]
                  lg:leading-[3.5rem] xl:leading-[4rem] dark:text-bg'>
                     <span ref={typedRef}></span>
                  </h1>
-                 <p data-aos="fade-right" data-aos-delay="200" className='mt-6 text-gray-700 text-sm md:text-base dark:text-white text-opacity-60'>
+                 <p data-aos="fade-right" data-aos-delay="200" className='mt-3 text-gray-700 text-sm md:text-base dark:text-white text-opacity-60'>
                     {BaseInfo.description}
                  </p>
                  <a 

@@ -10,6 +10,7 @@ import Footer from './Footer/Footer'
 import AOS from 'aos'
 import "aos/dist/aos.css"
 import Responsive from './Navbar/Responsive'
+import Head from 'next/head'
 const Home = () => {
 
 useEffect(()=>{
@@ -28,7 +29,15 @@ useEffect(()=>{
 
 
   return (
+
+    
     <div className="overflow-hidden">
+      <Head>
+        <title>Zeeshan Ramzan</title>
+        <meta name="description" content="Zeeshan Ramzan Portfolio" />
+        <meta name="keywords" content="Zeeshan Ramzan, Software Engineer, Web Developer, Blockchain Engineer" />
+        <meta name="author" content="Zeeshan Ramzan" />
+      </Head>
       <Responsive />
       <section id="hero">
         <Hero />
